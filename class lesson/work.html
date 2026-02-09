@@ -8,6 +8,13 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 9px;
+    transition: opacity 0.15s;
+  }
+  .sub-btn:hover{
+    opacity: 0.8;
+  }
+  .sub-btn:active{
+    opacity: 0.5;
   }
   .join-btn{
     background-color: white;
@@ -19,7 +26,16 @@
     width: 62px;
     border-radius: 2px;
     cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
   }
+  .join-btn:hover{
+    background-color: rgb(41, 118, 211);
+    color: white;
+  }
+  .join-btn:active{
+    opacity: 0.5;
+  }
+
   .twet-btn{
     color: white;
     background-color: rgb(2, 158, 255);
@@ -31,6 +47,13 @@
     cursor: pointer;
     font-size: 15px;
     margin-left: 10px;
+    transition: box-shadow 0.15s;
+  }
+  .twet-btn:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  }
+  .twet-btn:active{
+    opacity: 0.5;
   }
 </style>
 

@@ -6,6 +6,10 @@
   .web-link{
     color: rgb(0, 113, 133);
     cursor: pointer;
+    transition: color 0.15s;
+  }
+  .web-link:hover{
+    color: rgb(253, 169, 12);
   }
   .status{
     color: rgb(0, 118, 0);
@@ -17,16 +21,31 @@
     border: none;
     border-radius: 15px;
     color: rgb(31, 24, 24);
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .add-cart:hover{
+    background-color: rgb(235, 198, 17);
+  }
+  .add-cart:active{
+    opacity: 0.5;
   }
   .buy-now{
     height: 30px;
     width: 120px;
-    background-color: rgb(255, 164, 28);
+    background-color: rgb(255, 174, 52);
     border: none;
     border-radius: 15px;
     color: rgb(31, 24, 24);
+    cursor: pointer;
+    transition: background-color 0.15s;
   }
-
+  .buy-now:hover{
+    background-color: rgb(255, 153, 0);
+  }
+  .buy-now:active{
+    opacity: 0.5;
+  }
 </style>
 
 <a href="https://www.amazon.com" target="_blank" class="web-link">Back to Amazon</a>

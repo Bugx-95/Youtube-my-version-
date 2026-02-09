@@ -1,6 +1,6 @@
 <!--The challanges to recreate btns from famouse websites-->
 
-<!--Linkedin : "Apply on website & Save" btn-->
+<!--Linkedin : "Apply on website & Save" btn with hover-->
 
 <style>
   .apply-from-web{
@@ -13,6 +13,10 @@
     font-size: 13px;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .apply-from-web:hover{
+    background-color: rgb(14, 80, 146);
   }
   .save-btn{
     color: rgb(10, 102, 194);
@@ -24,6 +28,11 @@
     width: 70px;
     border-radius: 13px;
     cursor: pointer;
+    transition: border-width 0.15s background-color 0.15s;
+  }
+  .save-btn:hover{
+    border-width: 1.5px;
+    background-color: rgba(10, 102, 194, 0.1);
   }
 </style>
 
